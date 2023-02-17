@@ -8,7 +8,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh '/var/jenkins_home/workspace/PES2UG20CS087-1/main/hello_exec'
+                sh '/var/jenkins_home/workspace/PES2UG20CS032-1/main/hello_exec'
             }
         }
       stage('Deploy') {
